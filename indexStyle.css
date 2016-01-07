@@ -1,0 +1,697 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+body {
+	background-color: #272525;
+}
+
+#tabs {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.headerBckgrd {
+	background-repeat:repeat-x;
+	height: 61px;
+	width: 100%;	
+	background-color: #ebeff2;
+	min-width: 1024px;
+}
+
+#searchBox {
+	width:300px;
+	font-size:16px;
+	vertical-align:middle;
+	margin:15px 20px 20px 10px;
+	padding:5px;
+	border: 1px #C0C0C0 solid;
+	float:left;
+}
+
+#searchWrap {
+	float: left;
+	margin-left: 247px;
+}
+
+#searchButton {	
+	background-image:url('SearchSprite.png');
+	background-repeat:no-repeat;
+	width:92px;
+	height:61px;
+	float:left;
+	cursor:pointer;
+}
+
+#searchButton:hover {
+	background-image:url('SearchSprite.png');
+	background-repeat:no-repeat;
+	width:92px;
+	height:61px;
+	cursor:pointer;
+	background-position:0 -61px;
+}
+
+.mainHeader {
+	background-color: #ebeff2;
+	height: 61px;
+	min-width: 342px;
+	max-width: 1024px;
+	margin: auto;
+}
+
+#mainWrap {
+	min-width: 1024px;
+}
+
+#txtImgHeader {
+	float: left;
+	width: 250px;
+}
+
+#homeBtn {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/SiteImages/HomeBtn.png');
+	width: 92px;
+	height: 61px;
+	background-repeat:no-repeat;
+	float: right;
+}
+
+#homeBtn:hover {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/SiteImages/HomeBtn.png');
+	background-position: 0 -61px;
+	background-repeat:no-repeat;
+	float: right;
+}
+
+#topSectionWrap {
+	width: 100%;
+	background-color: #d71920;
+}
+
+#topSection {
+	width: 1000px;
+	height: 150px;
+	margin: auto;
+}
+
+#topSectionTxt {
+	width: 60%;
+	float: left;
+	margin: 0px auto;
+	color: white;
+	font-family: Calibri, Arial;
+	line-height: 22px;
+}
+
+#reportingSection {
+	width: 40%;
+	float: right;
+}
+
+#lrpBtn {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/IndexImages/lrpBtn.png');
+	height: 60px;
+	width: 300px;
+	float: right;
+}
+
+#lrpBtn:hover {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/IndexImages/lrpBtn.png');
+	height: 60px;
+	width: 300px;
+	float: right;
+	background-position: 0 -60px;
+}
+
+#reportBtn {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/IndexImages/jcpsscReportBtn.png');
+	height: 60px;
+	width: 300px;
+	float: right;
+	margin-top: 10px;
+}
+
+#reportBtn:hover {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/IndexImages/jcpsscReportBtn.png');
+	height: 60px;
+	width: 300px;
+	float: right;
+	margin-top: 10px;
+	background-position: 0 -60px;
+}
+
+#centerSection {
+	background-color: white;
+	width: 100%;
+}
+
+#dropShadow1 {
+	width: 100%;
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/SiteImages/dropShadowTopDown.png');
+	background-repeat:repeat-x;
+	height: 30px;
+	position: relative;
+}
+
+#dropShadow2 {
+	width: 100%;
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/SiteImages/dropShadowBtmUp.png');
+	background-repeat:repeat-x;
+	height: 30px;
+}
+
+#bottomSection {
+	width: 100%;
+}
+
+#horizontalRule {
+	width: 100%;
+	background-color: #9a9a9a;
+	height: 10px;
+}
+
+#colWrap {
+	width: 800px;
+	height: 200px;
+	margin: 25px auto;
+}
+
+#contactWrap {
+	width: 45%;
+	float: left;
+}
+
+#linksWrap {
+	width: 45%;
+	float: right;
+}
+
+#contactHeader, #linksHeader {
+	font-weight: 500;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+}
+
+.rule1 {
+	height: 1px;
+	background-color:#C0C0C0;
+	margin-top: 5px;
+}
+
+.rule2 {
+	height: 1px;
+	background-color:gray;	
+	margin-bottom: 5px;
+}
+
+#contactSection, #linksSection {
+	color: white;
+	font-family: Calibri, Arial;
+	line-height: 20px;
+}
+
+#deptCol1 {
+	width: 50%;
+	float: left;
+	height: auto;
+}
+
+#deptCol2 {
+	width: 50%;
+	float: right;
+	height: auto;
+}
+
+#googleMap {
+	width: 300px;
+	height: 400px;
+}
+
+.links {
+	text-decoration: none;
+	color: white;
+}
+
+.links:hover {
+	color: #E4E4E4;
+}
+
+/* Visitor Information page styling */
+
+#visCenterSection {
+	background-color: white;
+	width: 100%;
+	height: 430px;
+}
+
+#visTopSectionTxt {
+	float: left;
+	margin: 0px auto;
+	color: white;
+	font-family: Calibri, Arial;
+	line-height: 22px;
+}
+
+#visHeader {
+	padding-bottom: 20px;
+}
+
+#visDiv {
+	width: 900px;
+	margin: auto;
+	height: 400px;
+	background-color: white;
+}
+
+.visLinks {
+	font-family: Calibri, Arial;
+}
+
+#visCol1 {
+	width: 30%;
+	float: left;
+	line-height: 40px;
+}
+
+#visCol2 {
+	width: 35%;
+	float: right;
+	height: 400px;
+}
+
+#visCol3 {
+	float: left;
+	height: 300px;
+	width: 35%;
+	height: 400px;
+}
+
+#travelSite {
+	font-family: Calibri, Arial;
+	line-height: 20px;
+	margin: 20px auto;
+	width: 700px;
+	color: white;
+	text-align: center;
+}
+
+#supportSites {
+	width: 45%;
+	float: left;
+	margin-left: 20px;
+}
+
+#serviceSites {
+	width: 45%;
+	float: right;
+}
+
+/*  Store Support styling */
+
+#storeTopWrap {
+	width: 100%;
+	background-color: white;
+	height: auto;
+	padding-bottom: 25px;
+}
+
+#storeTopSection {
+	width: 950px;
+	margin: auto;
+	height: 125px;
+}
+
+#storeInfo {
+	width: 65%;
+	float: left;
+}
+
+#hotTopicsWrap {
+	width: 25%;
+	height: 100px;
+	float: right;
+	padding: 25px;
+}
+
+#hotTopicsText {
+	padding: 10px;
+}
+
+#hotTopicsBtn {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/hotTopicsBtn.png');
+	width: 222px;
+	height: 80px;
+	float: right;
+}
+
+#hotTopicsBtn:hover {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/hotTopicsBtn.png');
+	background-position: 0 -80px;
+}
+
+#horizontalRule2 {
+	background-color: #B3B7BC;
+	height: 2px;
+	margin-bottom: 10px;
+}
+
+.headerStyle {
+	font-family: Calibri, Arial;
+	font-size: 22px;
+	color: #3f3f3f;
+}
+
+.textStyle {
+	font-family: Calibri, Arial;
+	font-size: 16px;
+	line-height: 22px;
+	color: #3f3f3f;
+	margin-top: 10px;
+}
+
+#buttonWrap {
+	width: 100%;
+	background-color: #d71920;
+}
+
+#buttonSection {
+	width: 875px;
+	background-color: #d71920;
+	height: 225px;
+	margin: auto;
+}
+
+.btnStyle {
+	width: 142px;
+	height: 225px;
+}
+
+#hotTopicsHeader {
+	font-size: 34px;
+	padding-left: 15px;	
+}
+
+#storeContactLink {
+	color: #00234A;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#tab6 {
+	font-size: 18px;
+}
+
+#payrollBtn {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/payrollBtn.png');
+	float: left;
+	cursor: pointer;
+}
+
+#payrollBtn:hover {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/payrollBtn.png');
+	float: left;
+	background-position: 0 -225px;
+}
+
+#cashroomBtn {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/cashroomBtn.png');
+	float: left;
+}
+
+#cashroomBtn:hover {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/cashroomBtn.png');
+	float: left;
+	background-position: 0 -225px;
+}
+
+.cashroomActive {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/cashroomBtn.png');
+	background-position: 0 -225px;
+}
+
+#inventoryBtn {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/inventoryBtn.png');
+	float: left;
+}
+
+#inventoryBtn:hover {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/inventoryBtn.png');
+	float: left;
+	background-position: 0 -225px;
+}
+
+.inventoryActive {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/inventoryBtn.png');
+	background-position: 0 -225px;
+}
+
+#dotcomBtn {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/dotcomBtn.png');
+	float: left;
+}
+
+#dotcomBtn:hover {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/dotcomBtn.png');
+	float: left;
+	background-position: 0 -225px;
+}
+
+.dotcomActive {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/dotcomBtn.png');
+	background-position: 0 -225px;
+}
+
+#giftcardBtn {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/giftcardBtn.png');
+	float: left;
+}
+
+#giftcardBtn:hover {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/giftcardBtn.png');
+	float: left;
+	background-position: 0 -225px;
+}
+
+.giftcardActive {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/giftcardBtn.png');
+	float: left;
+	background-position: 0 -225px;
+}
+
+#iExpenseBtn {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/iExpenseBtn.png');
+	float: left;
+}
+
+#iExpenseBtn:hover {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/iExpenseBtn.png');
+	float: left;
+	background-position: 0 -225px;
+}
+
+.iExpenseActive {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/iExpenseBtn.png');
+	background-position: 0 -225px;
+}
+
+.redVertLine {
+	float: left;
+}
+
+#payrollSubBtns {
+	width: 875px;
+	height: 94px;
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/testButtons.png');
+}
+
+/* Store Support Slide Toggle UI */
+
+.ui-accordion .ui-accordion-content { 
+	overflow:hidden !important; 
+}
+
+.accordionData {
+	height: auto;
+}
+
+.ui-widget {
+	font-size: 0.9em;
+	list-style-type:circle;
+}
+
+strong {
+	font-size: 1em;
+}
+
+
+/* jQuery Tab CSS */
+
+#tabContainer {
+	width: 900px;
+	margin: auto;
+}
+
+#tabContent {
+	width: 900px;
+	margin: auto;
+}
+
+.tab-link {
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background: black;
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #edf0f2;
+	color: #222;
+}
+
+.tab-content {
+	display: none;
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background: #333333;
+	background: #edf0f2;
+	padding: 25px;
+	line-height: 24px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+ul > ul {
+	padding-left: 25px;
+}
+
+#tab-content {
+	width: 875px;
+	margin: 25px auto;
+	height: auto;
+}
+
+#tab-content li, #tab-content ul li {
+	list-style-type:disc;
+	margin-left: 35px;
+	line-height: 25px;
+}
+
+#hotTopics {
+	width: 820px;
+	margin:auto auto 25px auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.indexTab1 {
+	height: 300px;
+}
+
+.indexTab2 {
+	padding-left: 55px;
+	height: 500px;
+}
+
+.indexTab3 {
+	height: 500px;
+}
+
+.tab, #storeContactInfo {
+	display: none;
+	font-family: Calibri, Arial;
+	border: 10px #595454 solid;
+	background-color: #e5e8ea;
+	line-height: 25px;
+	color: #303133;
+	padding: 20px;
+	height: auto;
+}
+
+.tab.active {
+	display:block;
+}
+
+li.active a, li.active a:hover {
+	background-image:url('https://jcp.sharepoint.com/sites/SPOStdControllers/JCPSSC/SiteAssets/StoreSupportImages/activeState.png');
+	background-position: 0 -225px;
+}
+
+#tabs {
+	font-size: 12px;
+}
+
+ui-tabs {
+	background-color: white;
+}
+
+/* JCPSSC Report CSS */
+
+#rptTopWrap {
+	width: 100%;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+#tabs {
+	width: 1024px;
+	margin: auto;
+	background-color: white;
+}
+
+#rptButtonWrap {
+	width: 100%;
+	background-color: white;
+}
+
+#rptButtonSection {
+	background-color: white;
+}
+
+#rptTabContent {
+	font-size: 18px;
+}
+
+#btmSection {
+	width: 300px;
+	margin: auto;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#feedback {
+	margin: auto;
+	color: white;
+	font-size: 12px;
+}
